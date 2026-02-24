@@ -3,8 +3,9 @@ Web-API for [shrtco.de](https://shrtco.de) website to make links shorter and eas
 
 ## Example
 ```python
-import shrt_code
-shrt_code = shrt_code.ShrtCode()
+from shrt_code import ShrtCode
+
+shrt_code = ShrtCode()
 short_url = shrtcode.shorten_url(url="")
 print(short_url)
 ```
